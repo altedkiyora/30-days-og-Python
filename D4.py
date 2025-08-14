@@ -25,3 +25,4 @@ print (language[-6])
 language = 'Python'
 pto = language[0:6:2] #
 print(pto) # Pto
+#trying
