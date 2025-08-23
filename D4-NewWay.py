@@ -10,3 +10,5 @@ print(2*txt*4)
 """ age = int(input("whatever:")) will take input and assign it to name and the dtype will be int. """
 age = int(input("whatever:"))
 print("My age: ", age)
+
+# operators today
