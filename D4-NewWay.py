@@ -26,4 +26,5 @@ a = float(input("first"))
 b = float(input("second"))
 avg = (a + b)/2
 print((a == b) or (a >b))
-          
+          #Deciding to go vids first
+#Then comeback to this
