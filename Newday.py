@@ -12,3 +12,17 @@
 #     print("Grade B")
 # else:
 #     print("Failed")
+# num = int(input("Enter num: "))
+# if (num%2 == 0):
+#     print("Even")
+# else:
+#     print("Odd")
+# num1 = int(input("1st num:"))
+# num2 = int(input("2nd num:"))
+# num3 = int(input("3rd num:"))
+# if(num1 > num2 and num1 > num3):
+#     print("Greater num is",num1)
+# elif(num2 > num1 and num2 > num3):
+#     print("Greater num is",num2)
+# else:
+#     print("Greater num is",num3)
