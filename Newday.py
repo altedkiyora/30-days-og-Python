@@ -29,6 +29,12 @@
 # sal = float(input())
 # tax = sal * (0.1,0.2) [sal>50000 or sal == 50000]
 # print(tax)
-list1 = [1, 3 , 4]
-print(list1)
-print(type(list1))
+# list1 = [1 , 7, 5]
+# list1.reverse()
+# print(list1)
+# m1 = str(input("N1: "))
+# m2 = str(input("N2: "))
+# m3 = str(input("N3: "))
+# list1 = [m1, m2, m3]
+# print(list1)
+
