@@ -26,6 +26,9 @@
 #     print("Greater num is",num2)
 # else:
 #     print("Greater num is",num3)
-sal = float(input())
-tax = sal * (0.1,0.2) [sal>50000 or sal == 50000]
-print(tax)
+# sal = float(input())
+# tax = sal * (0.1,0.2) [sal>50000 or sal == 50000]
+# print(tax)
+list1 = [1, 3 , 4]
+print(list1)
+print(type(list1))
