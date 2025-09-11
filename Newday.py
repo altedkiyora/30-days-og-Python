@@ -38,3 +38,9 @@
 # list1 = [m1, m2, m3]
 # print(list1)
 
+# list = ["a","d", "b"]
+# list.sort(reverse= True)
+# print(list)
+# list =[1]
+# print(list)
+# print(type(list))
