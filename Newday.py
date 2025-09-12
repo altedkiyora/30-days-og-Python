@@ -65,3 +65,17 @@
 # print(e) # o
 # print(f) # n
 # print(language)
+# challenge = 'thirty days of python'
+# print(challenge.count('y')) # 3
+# print(challenge.count('y', 7, 14)) # 1, 
+# print(challenge.count('th')) # 2`
+# challenge = '\u00B2'
+# print(challenge.isdigit())
+# web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+# result = '# '.join(web_tech)
+# print(result) # 'HTML# CSS# JavaScript# React'
+# first = "coding" 
+# second = "for" 
+# third = "all"
+# concatenated = f'{first} {second} {third}'
+# print (concatenated)
