@@ -44,3 +44,15 @@
 # list =[1]
 # print(list)
 # print(type(list))
+# python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas', 9]
+# formated_string = 'The following are python libraries:%s' % (python_libraries)
+# print( formated_string)
+# a = 4
+# b = 3
+# print(f'{a} + {b} = {a +b}')
+# print(f'{a} - {b} = {a - b}')
+# print(f'{a} * {b} = {a * b}')
+# print(f'{a} / {b} = {a / b:.2f}')
+# print(f'{a} % {b} = {a % b}')
+# print(f'{a} // {b} = {a // b}')
+# print(f'{a} ** {b} = {a ** b}') 
