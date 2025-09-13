@@ -79,3 +79,4 @@
 # third = "all"
 # concatenated = f'{first} {second} {third}'
 # print (concatenated)
+# print("I am enjoying this challange.\nI just wonder what is next.")
