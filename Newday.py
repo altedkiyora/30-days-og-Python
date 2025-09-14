@@ -108,14 +108,20 @@
 # print(bg)
 # print(sw)
 # print(scandic)
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-ages.sort()
-print (ages[0],ages[-1])
-print (len(ages))
-print(ages[0]-ages[-1])
-print(ages[int(len(ages)/2)]/2)
-print(ages)
-a,b,c,d,e,f,g,h,i,j = ages
-sum = a + b+c+d+e+f+g+h+i+j
-avg = sum / len(ages)
-print (avg)
+# ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+# ages.sort()
+# print (ages[0],ages[-1])
+# print (len(ages))
+# print(ages[0]-ages[-1])
+# print(ages[int(len(ages)/2)]/2)
+# print(ages)
+# a,b,c,d,e,f,g,h,i,j = ages
+# sum = a + b+c+d+e+f+g+h+i+j
+# avg = sum / len(ages)
+# print (avg)
+# tpl = (1,3,4)
+# a, *b= tpl
+# print(tpl)
+# print (b)
+# print(tpl[int(len(tpl)/2)])
+
