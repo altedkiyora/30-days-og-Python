@@ -124,4 +124,7 @@
 # print(tpl)
 # print (b)
 # print(tpl[int(len(tpl)/2)])
-
+# dict = {
+#     "first" : "Ok",
+# }
+# print (dict)
