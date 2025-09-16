@@ -128,3 +128,6 @@
 #     "first" : "Ok",
 # }
 # print (dict)
+# set = dict(
+# )
+# print(type(set))
