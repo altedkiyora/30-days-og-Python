@@ -131,3 +131,6 @@
 # set = dict(
 # )
 # print(type(set))
+clt = {1,3,4}
+print(clt.pop())
+print(clt)
