@@ -131,6 +131,52 @@
 # set = dict(
 # )
 # print(type(set))
-clt = {1,3,4}
-print(clt.pop())
-print(clt)
+# clt = {1,3,4}
+# print(clt.pop())
+# print(clt)
+
+# i = 100
+# while i >=1 :
+#     print(i)
+#     i-= 1
+
+# print ("end")
+
+# x = int(input())
+# n = 1
+# while n<=10 :
+#     mult = x * n
+#     print (mult)
+#     n += 1
+# print ("end")
+
+
+# x = [3,4]
+# y = 0
+# z = len(x)-1
+# while y <= z :
+#     print(x[y])
+#     y += 1
+# print ("done")
+
+
+# tup = (2,3,5,56,7,)
+# i = int(input())
+# x = 0
+# while x < len(tup) :
+#     if(tup[x] == i ):
+#         print("found at : ",x)
+#     else: print("ing")  
+#     x+=1
+# print ("end")
+
+tup = (2,3,5,56,7,)
+i = int(input())
+x = 0
+while x < len(tup) :
+    if(tup[x] == i ):
+        print("found at : ",x)
+        break
+    else:
+        print("ing")  
+    x+=1
