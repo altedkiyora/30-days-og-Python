@@ -170,13 +170,13 @@
 #     x+=1
 # print ("end")
 
-tup = (2,3,5,56,7,)
-i = int(input())
-x = 0
-while x < len(tup) :
-    if(tup[x] == i ):
-        print("found at : ",x)
-        break
-    else:
-        print("ing")  
-    x+=1
+# tup = (2,3,5,56,7,)
+# i = int(input())
+# x = 0
+# while x < len(tup) :
+#     if(tup[x] == i ):
+#         print("found at : ",x)
+#         break
+#     else:
+#         print("ing")  
+#     x+=1
