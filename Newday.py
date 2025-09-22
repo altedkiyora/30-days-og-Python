@@ -181,3 +181,24 @@
 #         print("ing")  
 #     x+=1
 #NOT today
+# fruits = {'banana', 'orange', 'mango', 'lemon'}
+# vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
+# fruits.update(vegetables)
+# print(fruits)
+# syntax
+# st = {'item1', 'item2', 'item3', 'item4'}
+# st.update(['item5','item6','item7'])
+# print(st)
+# syntax
+# st1 = {'item1', 'item2', 'item3', 'item4'}
+# st2 = {'item5', 'item6', 'item7', 'item8'}
+# st3 = st1.union(st2)
+# print (st3)
+# print(st1)
+# syntax
+# st1 = {'item1', 'item2', 'item3', 'item4'}
+# st2 = {'item2', 'item3'}
+# print(st2.difference(st1)) # set()
+# print(st1.difference(st2)) # {'item1', 'item4'} => st1\st2
+# del st1
+# print(st1)
