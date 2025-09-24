@@ -203,3 +203,12 @@
 # del st1
 # print(st1)
 #Rev Session
+# challenge = 'thirty days of python'
+# print(challenge.split()) # ['thirty', 'days', 'of', 'python']
+# challenge = 'thirty, days, of, python'
+# print(challenge.split(' ')) # ['thirty', 'days', 'of', 'python']
+# X = "I am a teacher and I love to inspire and teach people"
+# print(X.split())
+# Y = set(X.split())
+# print(Y)
+# print(len(Y)==len(X.split()))
