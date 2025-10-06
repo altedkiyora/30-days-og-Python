@@ -216,3 +216,17 @@
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 values = dct['key1']
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+
+def new(a):
+    b = a * 83
+    print(a , "usd=",b,"inr")
+    return b
+
+
+def home(a):
+    if a%2==0:
+     print("EVEN")
+    else:
+        print("ODD")
+
+home(9)
