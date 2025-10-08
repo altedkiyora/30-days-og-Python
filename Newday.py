@@ -213,20 +213,38 @@
 # print(Y)
 # print(len(Y)==len(X.split()))
 # syntax
-dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
-values = dct['key1']
-print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+# dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+# values = dct['key1']
+# print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
-def new(a):
-    b = a * 83
-    print(a , "usd=",b,"inr")
-    return b
+# def new(a):
+#     b = a * 83
+#     print(a , "usd=",b,"inr")
+#     return b
 
 
-def home(a):
-    if a%2==0:
-     print("EVEN")
-    else:
-        print("ODD")
+# def home(a):
+#     if a%2==0:
+#      print("EVEN")
+#     else:
+#         print("ODD")
 
-home(9)
+# home(9)
+
+# def fact(n):
+#     if (n==0 or n==1):
+#         return 1
+#     else:
+#         return fact(n-1)*n
+#     print(fact(n))
+
+# print(fact(5))
+
+def pint(lst,idx):
+    if (idx == len(lst)):
+        return
+    print(lst[idx])
+    pint(lst,idx+1)
+LIst = ["man","ok"]
+pint(LIst, -1)
+
