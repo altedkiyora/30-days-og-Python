@@ -240,11 +240,19 @@
 
 # print(fact(5))
 
-def pint(lst,idx):
-    if (idx == len(lst)):
-        return
-    print(lst[idx])
-    pint(lst,idx+1)
-LIst = ["man","ok"]
-pint(LIst, -1)
+# def pint(lst,idx):
+#     if (idx == len(lst)):
+#         return
+#     print(lst[idx])
+#     pint(lst,idx+1)
+# LIst = ["man","ok"]
+# pint(LIst, -1)
+
+# def sum_sum(a,b):
+#     sum = a + b
+#     print (sum)
+#     return sum
+# sum_sum (5,5)
+# print(sum_sum(52,5))
+
 
