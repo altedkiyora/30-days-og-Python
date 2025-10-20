@@ -256,3 +256,21 @@
 # print(sum_sum(52,5))
 
 
+person = {
+    'first_name':'Asabeneh',
+    'last_name':'Yetayeh',
+    'age':250,
+    'country':'Finland',
+    'is_marred':True,
+    'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'02210'
+        }
+}
+person['job_title'] = 'Instructor'
+person['skills'].append('HTML')
+print(person)
+
+dcdt = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dcdt.items()) 
