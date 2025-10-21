@@ -256,21 +256,81 @@
 # print(sum_sum(52,5))
 
 
-person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
-    'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-    'address':{
-        'street':'Space street',
-        'zipcode':'02210'
-        }
-}
-person['job_title'] = 'Instructor'
-person['skills'].append('HTML')
-print(person)
+# person = {
+#     'first_name':'Asabeneh',
+#     'last_name':'Yetayeh',
+#     'age':250,
+#     'country':'Finland',
+#     'is_marred':True,
+#     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+#     'address':{
+#         'street':'Space street',
+#         'zipcode':'02210'
+#         }
+# }
+# person['job_title'] = 'Instructor'
+# person['skills'].append('HTML')
+# print(person)
 
-dcdt = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
-print(dcdt.items()) 
+# dcdt = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+# print(dcdt.items()) 
+
+# numbers = [0, 1, 2, 3, 4, 5]
+# for number in numbers: # number is temporary name to refer to the list's items, valid only inside this loop
+#     print(number)       # the numbers will be printed line by line, from 0 to 5
+
+# language = 'Python'
+# for letter in language:
+#     print(letter)
+
+
+# for i in range(len(language)):
+#     print(language[i])]
+
+# numbers = (0, 1, 2, 3, 4, 5)
+# for number in numbers:
+#     print(number)
+
+# person = {
+#     'first_name':'Asabeneh',
+#     'last_name':'Yetayeh',
+#     'age':250,
+#     'country':'Finland',
+#     'is_marred':True,
+#     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+#     'address':{
+#         'street':'Space street',
+#         'zipcode':'02210'
+#     }
+# }
+# for key in person:
+#     print(key)
+
+# for key, value in person.items():
+#     print(key, value) # this way we get both keys and values printed out
+
+# numbers = (0,1,2,3,4,5)
+# for number in numbers:
+#     print(number)
+#     if number == 3:
+#         continue
+#     print('Next number should be ', number + 1) if number != 5 else print("loop's end") # for short hand conditions need both if and else statements
+# print('outside the loop')
+
+# person = {
+#     'first_name': 'Asabeneh',
+#     'last_name': 'Yetayeh',
+#     'age': 250,
+#     'country': 'Finland',
+#     'is_marred': True,
+#     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+#     'address': {
+#         'street': 'Space street',
+#         'zipcode': '02210'
+#     }
+# }
+# for key in person:
+#     if key == 'skills':
+#         for skill in person['skills']:
+#             print(skill)
+
