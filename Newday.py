@@ -387,3 +387,7 @@
 
 # print_fullname('s','p')
 # print(print_fullname('s','pq'))
+
+for i in range(11):
+    print(i)
+    i=-1
