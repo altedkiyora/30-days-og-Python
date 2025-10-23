@@ -334,3 +334,55 @@
 #         for skill in person['skills']:
 #             print(skill)
 
+# def generate_full_name ():
+#     first_name = 'Asabeneh'
+#     last_name = 'Yetayeh'
+#     space = ' '
+#     full_name = first_name + space + last_name
+#     print(full_name)
+# generate_full_name () # calling a function
+# print(generate_full_name)
+# def add_two_numbers ():
+#     num_one = 2
+#     num_two = 3
+#     total = num_one + num_two
+#     print(total)
+# add_two_numbers()
+# print (add_two_numbers)
+
+# def generate_full_name ():
+#     first_name = 'Asabeneh'
+#     last_name = 'Yetayeh'
+#     space = ' '
+#     full_name = first_name + space + last_name
+#     return full_name
+# print(generate_full_name())
+
+# def add_two_numbers ():
+#     num_one = 2
+#     num_two = 3
+#     total = num_one + num_two
+#     return total
+# add_two_numbers
+# print(add_two_numbers())
+
+def print_fullname(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    print(full_name)
+print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+
+def print_fullname(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    print(full_name)
+    return full_name
+print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+
+
+def add_two_numbers (num1, num2):
+    total = num1 + num2
+    print(total)
+print(add_two_numbers(num2 = 3, num1 = 2)) # Order does not matter
+
+
