@@ -372,18 +372,18 @@
 #     print(full_name)
 # print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
 
-def print_fullname(firstname, lastname):
-    space = ' '
-    full_name = firstname  + space + lastname
-    print(full_name)
-    return full_name
-print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+# def print_fullname(firstname, lastname):
+#     space = ' '
+#     full_name = firstname  + space + lastname
+#     print(full_name)
+#     return full_name
+# print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
 
 
-# def add_two_numbers (num1, num2):
-#     total = num1 + num2
-#     print(total)
-# print(add_two_numbers(num2 = 3, num1 = 2)) # Order does not matter
+# # def add_two_numbers (num1, num2):
+# #     total = num1 + num2
+# #     print(total)
+# # print(add_two_numbers(num2 = 3, num1 = 2)) # Order does not matter
 
-print_fullname('s','p')
-print(print_fullname('s','pq'))
+# print_fullname('s','p')
+# print(print_fullname('s','pq'))
