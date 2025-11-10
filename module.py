@@ -21,7 +21,40 @@
 # print (sumeven)
 # print(sumodd)
 
-list = ['banana', 'orange', 'mango', 'lemon']
-for i in range(len(list)-1,-1,-1):
-    print((list[i]))
+# list = ['banana', 'orange', 'mango', 'lemon']
+# for i in range(len(list)-1,-1,-1):
+#     print((list[i]))
     
+# def generate_full_name ():
+#     first_name = 'Asabeneh'
+#     last_name = 'Yetayeh'
+#     space = ' '
+#     full_name = first_name + space + last_name
+#     return full_name
+# print(generate_full_name())
+
+# def add_two_numbers ():
+#     num_one = 2
+#     num_two = 3
+#     total = num_one + num_two
+#     return total
+# print(add_two_numbers())
+
+# def greetings (name):
+#     message = name + ', welcome to Python for Everyone!'
+#     return message
+# print(greetings('Asabeneh'))
+
+# def find_even_numbers(n):
+#     evens = []
+#     for i in range(n + 1):
+#         if i % 2 == 0:
+#             evens.append(i)
+#     return evens
+# print(find_even_numbers(10))
+
+def generate_groups (team,*args):
+    print(team)
+    for i in args:
+        print(i)
+print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
